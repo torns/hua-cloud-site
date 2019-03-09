@@ -1,4 +1,6 @@
 
+# javascript
+
 注: 该规范基本继承自[爱彼迎javascript规范](https://github.com/airbnb/javascript), 加上公司的一些开发习惯修改了部分规范
 
 ## 类型

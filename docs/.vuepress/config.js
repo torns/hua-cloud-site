@@ -62,8 +62,15 @@ module.exports = {
         }
       ],
       '/styleguide/': [
-        ['/styleguide/javascript.md', 'javascript'],
-        ['/styleguide/style.md', 'style']
+        {
+          title: '规范',
+          collapsable: false,
+          children: [
+            '/styleguide/javascript.md',
+            '/styleguide/style.md',
+          ]
+        },
+        
       ]
     },
     markdown: {
