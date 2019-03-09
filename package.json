@@ -1,0 +1,20 @@
+{
+  "name": "hua-cloud-admin-site",
+  "version": "0.0.1",
+  "description": "华云中盛后台管理模板前端工程文档",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": "git@github.com:hua-cloud/hua-cloud-admin-site.git",
+  "author": "ChasLui <402430161@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-active-header-links": "^1.0.0-alpha.42",
+    "@vuepress/plugin-back-to-top": "^1.0.0-alpha.42",
+    "@vuepress/plugin-last-updated": "^1.0.0-alpha.42",
+    "@vuepress/plugin-medium-zoom": "^1.0.0-alpha.42",
+    "vuepress": "^1.0.0-alpha.42"
+  }
+}
