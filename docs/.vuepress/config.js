@@ -45,20 +45,33 @@ module.exports = {
       }
     ],
     sidebar: {
-      '/guide/': [{
-        title: '基础',
-        collapsable: false,
-        children: [
-          '/guide/'
-        ]
-      }, ]
+      '/guide/': [
+        {
+          title: '基础',
+          collapsable: false,
+          children: [
+            '/guide/',
+          ]
+        },
+        {
+          title: '高级',
+          collapsable: false,
+          children: [
+            '/guide/advanced/',
+          ]
+        }
+      ],
+      '/styleguide/': [
+        ['/styleguide/javascript.md', 'javascript'],
+        ['/styleguide/style.md', 'style']
+      ]
     },
     markdown: {
       lineNumbers: true
     },
     plugins: [
       '@vuepress/active-header-links',
-      ['@vuepress/back-to-top', true],
+      '@vuepress/back-to-top',
       '@vuepress/medium-zoom',
       '@vuepress/nprogress'
     ]
