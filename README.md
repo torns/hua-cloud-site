@@ -1,6 +1,6 @@
 # Hua-Cloud Admin Front End Project Site
 
-华云中盛后台前端模板项目文档
+华云中盛前端基础框架文档
 
 [在线访问](https://hua-cloud.github.io/hua-cloud-site/)
 
