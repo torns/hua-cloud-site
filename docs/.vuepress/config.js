@@ -64,6 +64,7 @@ module.exports = {
       '/styleguide/': [
         '/styleguide/',
         '/styleguide/javascript.md',
+        '/styleguide/git.md',
       ]
     },
     markdown: {
