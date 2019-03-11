@@ -62,16 +62,8 @@ module.exports = {
         }
       ],
       '/styleguide/': [
-        {
-          title: '规范',
-          collapsable: false,
-          sidebarDepth: 1,    // 可选的, 默认值是 1
-          children: [
-            '/styleguide/javascript.md',
-            '/styleguide/style.md',
-          ]
-        },
-        
+        '/styleguide/',
+        '/styleguide/javascript.md',
       ]
     },
     markdown: {
