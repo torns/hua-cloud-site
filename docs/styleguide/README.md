@@ -224,16 +224,6 @@ export default {
 </style>
 ```
 
-<script>
-  const avatar = require('D/assets/bem.png')
-  export default {
-    data() {
-      return {
-        avatar: avatar
-      }
-    }
-  }
-</script>
 ## 命名
 
 原则用英文，选取简单常见、有意义的单词，可以一个词描述的，不要用多词组合，单词简写要用常见的
@@ -323,7 +313,7 @@ http://127.0.0.1:8080/#/system-admin/person-detail
 
 采用BEM规范命名，即块（block）、元素（element）、修饰符（modifier）的缩写，利⽤不同的区块，功能以及样式来给元素命名
 
-<img :src='avatar'></img>
+<img :src="$withBase('/bem.png')"></img>
 
 ```xml
 .tabs{}
