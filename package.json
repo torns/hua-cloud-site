@@ -1,5 +1,5 @@
 {
-  "name": "hua-cloud-admin-site",
+  "name": "hua-cloud-site",
   "version": "0.0.1",
   "description": "华云中盛后台管理模板前端工程文档",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
-  "repository": "git@github.com:hua-cloud/hua-cloud-admin-site.git",
+  "repository": "git@github.com:hua-cloud/hua-cloud-site.git",
   "author": "ChasLui <402430161@qq.com>",
   "license": "MIT",
   "devDependencies": {

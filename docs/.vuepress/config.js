@@ -1,7 +1,7 @@
 module.exports = {
   title: '华云中盛 前端文档',
   description: '加速你的开发',
-  base: '/hua-cloud-admin-site/',
+  base: '/hua-cloud-site/',
   head: [
     [
       'link',
@@ -13,7 +13,7 @@ module.exports = {
   ],
   themeConfig: {
     repo: 'https://github.com/hua-cloud/cloud-template',
-    docsRepo: 'https://github.com/hua-cloud/hua-cloud-admin-site',
+    docsRepo: 'https://github.com/hua-cloud/hua-cloud-site',
     // 假如你的文档仓库和项目本身不在一个仓库：
     docsDir: 'docs',
     // 假如文档放在一个特定的分支下：
