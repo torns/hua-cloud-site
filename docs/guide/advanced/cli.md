@@ -2,13 +2,37 @@
 
 ## 项目初始化
 
-可以通过 vue-cli3预设启动项目
+可以通过 vue-cli3预设创建新的项目
 
 ```shell
 vue create --preset hua-cloud/hua-cloud-template {项目名称}
 ```
 
 ## 代码生成
+
+通过调用 [vue-cli-hua-cloud-template-generator](https://github.com/hua-cloud/vue-cli-plugin-hua-cloud-template-generator) 插件生成模块文件，
+
+使用前请确保目录结构风格和 [hua-cloud-template](https://github.com/hua-cloud/hua-cloud-template) 项目生成的结构一致。
+
+``` bash
+# 添加生成器进项目
+# 如果通过 命令vue create --preset hua-cloud/hua-cloud-template 生成的请忽略此操作
+vue add hua-cloud-template-generator
+```
+
+``` bash
+# 使用
+$ npm run add
+
+? 你想生成什么啊?
+❯ Component 组件
+  View 页面
+  Store 模块
+  Mixin
+  Directive 指令
+  Filter 过滤器
+```
+<br>
 
 ## 调试和编译
 

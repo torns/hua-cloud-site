@@ -25,9 +25,9 @@ module.exports = {
     sidebarDepth: 4,
     lastUpdated: '最后更新',
     nav: [{
-        text: '指南',
-        link: '/guide/'
-      },
+      text: '指南',
+      link: '/guide/'
+    },
       {
         text: '规范',
         link: '/styleguide/'
@@ -37,9 +37,22 @@ module.exports = {
         items: [{
           text: '项目',
           items: [
-            { text: 'vue-hua-cloud-template', link: 'https://github.com/hua-cloud/cloud-template' },
-            { text: 'eslint-config-hua-cloud', link: 'https://github.com/hua-cloud/eslint-config-hua-cloud' },
-            { text: 'vue-cli-plugin-cloud-template', link: 'https://github.com/hua-cloud/vue-cli-plugin-cloud-template' },
+            {
+              text: 'vue-hua-cloud-template',
+              link: 'https://github.com/hua-cloud/cloud-template'
+            },
+            {
+              text: 'eslint-config-hua-cloud',
+              link: 'https://github.com/hua-cloud/eslint-config-hua-cloud'
+            },
+            {
+              text: 'vue-cli-plugin-cloud-template',
+              link: 'https://github.com/hua-cloud/vue-cli-plugin-cloud-template'
+            },
+            {
+              text: 'vue-cli-plugin-cloud-template-generator',
+              link: 'https://github.com/hua-cloud/vue-cli-plugin-hua-cloud-template-generator'
+            }
           ]
         }]
       }
@@ -50,7 +63,7 @@ module.exports = {
           title: '基础',
           collapsable: false,
           children: [
-            '/guide/',
+            '/guide/'
           ]
         },
         {
@@ -65,21 +78,21 @@ module.exports = {
             '/guide/advanced/vuex',
             '/guide/advanced/service',
             '/guide/advanced/module',
-            '/guide/advanced/components',
+            '/guide/advanced/components'
           ]
         },
         {
           title: '其他',
           collapsable: false,
           children: [
-            '/guide/other/changelog',
+            '/guide/other/changelog'
           ]
-        },
+        }
       ],
       '/styleguide/': [
         '/styleguide/',
         '/styleguide/javascript.md',
-        '/styleguide/git.md',
+        '/styleguide/git.md'
       ]
     },
     markdown: {
