@@ -62,9 +62,10 @@ module.exports = {
             '/guide/advanced/cli',
             '/guide/advanced/router',
             '/guide/advanced/view',
-            '/guide/advanced/model',
+            '/guide/advanced/vuex',
             '/guide/advanced/service',
             '/guide/advanced/module',
+            '/guide/advanced/components',
           ]
         },
         {
