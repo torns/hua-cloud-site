@@ -54,12 +54,26 @@ module.exports = {
           ]
         },
         {
-          title: '高级',
+          title: '进阶',
           collapsable: false,
           children: [
-            '/guide/advanced/',
+            '/guide/advanced/design',
+            '/guide/advanced/arch',
+            '/guide/advanced/cli',
+            '/guide/advanced/router',
+            '/guide/advanced/view',
+            '/guide/advanced/model',
+            '/guide/advanced/service',
+            '/guide/advanced/module',
           ]
-        }
+        },
+        {
+          title: '其他',
+          collapsable: false,
+          children: [
+            '/guide/other/changelog',
+          ]
+        },
       ],
       '/styleguide/': [
         '/styleguide/',

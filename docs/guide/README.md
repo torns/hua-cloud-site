@@ -16,7 +16,7 @@ pageClass: getting-started
 - 注释生成文档
 - 自动加载
 
-## 前序准备
+## 准备
 
 你需要全局安装 Vue-cli3
 
